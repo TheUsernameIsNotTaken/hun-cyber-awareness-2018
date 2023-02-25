@@ -1,0 +1,508 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" slick-uniqueid="3"><head>
+      <title>Az online biztonság leggyengébb láncszemei az IoT eszközök - HWSW</title>
+      <meta name="Description" content="Biztonsági kamerákból, videófelvevõkbõl és társaikból épülnek az új gigabotnetek. A pár éves, internetkapcsolattal rendelkezõ hasonló eszközök szinte a bekapcsolás pillanatában malware-ostrom alá kerülnek.">
+      <meta name="Keywords" content="biztonság,botnet,iot,dvr,mirai,malware">
+	  <meta property="og:title" content="Az online biztonság leggyengébb láncszemei az IoT eszközök"> 
+	  <meta property="og:type" content="article"> 
+	  <meta property="og:url" content="//www.hwsw.hu/hirek/56250/biztonsag-botnet-iot-dvr-mirai-malware.html"> 
+            
+	  <meta property="og:image" content="//www.hwsw.hu/kepek/hirek/2016/09/botnet.jpg"> 
+      
+	  <meta property="og:description" content="Biztonsági kamerákból, videófelvevõkbõl és társaikból épülnek az új gigabotnetek. A pár éves, internetkapcsolattal rendelkezõ hasonló eszközök szinte a bekapcsolás pillanatában malware-ostrom alá kerülnek.">         
+      <meta property="og:site_name" content="HWSW">
+      
+      <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+      <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-2">
+      <meta http-equiv="Content-Language" content="hu">
+      <meta http-equiv="Content-Style-Type" content="text/css">
+      <meta name="Author" content="hwsw.hu">
+      <meta name="Copyright" content="">
+      <meta name="verify-v1" content="7gDkjOlPC8dwM/i5adoAryguBZ7tgO3HDGu5pPA6xo0=">
+      
+
+      <link rel="alternate" type="application/rss+xml" title="HWSW hírek" href="https://www.hwsw.hu/xml/latest_news_rss.xml">
+            <link title="HWSW Keresõ" href="https://www.hwsw.hu/xml/opensearch.xml" type="application/opensearchdescription+xml" rel="search">
+      <link rel="stylesheet" type="text/css" href="Az%20online%20biztons%C3%A1g%20leggyeng%C3%A9bb%20l%C3%A1ncszemei%20az%20IoT%20eszk%C3%B6z%C3%B6k%20-%20HWSW_files/A.css">
+
+      <!--[if lte IE 7]>
+      <link rel="stylesheet" type="text/css" href="//www.hwsw.hu/css/style_ie7.css" />
+      <![endif]--> 
+      <!--[if gt IE 7]>
+      <link rel="stylesheet" type="text/css" href="//www.hwsw.hu/css/style_ie8.css" />
+      <![endif]--> 
+    
+      <script src="Az%20online%20biztons%C3%A1g%20leggyeng%C3%A9bb%20l%C3%A1ncszemei%20az%20IoT%20eszk%C3%B6z%C3%B6k%20-%20HWSW_files/884298924952901.js" async=""></script><script async="" src="Az%20online%20biztons%C3%A1g%20leggyeng%C3%A9bb%20l%C3%A1ncszemei%20az%20IoT%20eszk%C3%B6z%C3%B6k%20-%20HWSW_files/fbevents.js"></script><script type="text/javascript" async="" defer="defer" src="Az%20online%20biztons%C3%A1g%20leggyeng%C3%A9bb%20l%C3%A1ncszemei%20az%20IoT%20eszk%C3%B6z%C3%B6k%20-%20HWSW_files/fsyn.js"></script><script async="" src="Az%20online%20biztons%C3%A1g%20leggyeng%C3%A9bb%20l%C3%A1ncszemei%20az%20IoT%20eszk%C3%B6z%C3%B6k%20-%20HWSW_files/analytics.js"></script><script type="text/javascript" src="Az%20online%20biztons%C3%A1g%20leggyeng%C3%A9bb%20l%C3%A1ncszemei%20az%20IoT%20eszk%C3%B6z%C3%B6k%20-%20HWSW_files/mootools-core-1.js"></script>
+      <script type="text/javascript" src="Az%20online%20biztons%C3%A1g%20leggyeng%C3%A9bb%20l%C3%A1ncszemei%20az%20IoT%20eszk%C3%B6z%C3%B6k%20-%20HWSW_files/mootools-more-1.js"></script>
+
+
+      <script type="text/javascript" src="Az%20online%20biztons%C3%A1g%20leggyeng%C3%A9bb%20l%C3%A1ncszemei%20az%20IoT%20eszk%C3%B6z%C3%B6k%20-%20HWSW_files/hwsw-core.js"></script>
+      <script type="text/javascript">//<![CDATA[
+HWSW.innerPopup={build:function(popupW,popupH){if(!$("overlay")){var documentFullSize=document.getScrollSize();var overlay=new Element("div",{id:"overlay",styles:{width:documentFullSize.x,height:documentFullSize.y}});overlay.inject(document.body);overlay.setStyle("opacity","0.9");overlay.addEvent("click",HWSW.innerPopup.close);if(Browser.Engine.trident)$$("select").setStyle("visibility","hidden");}else{HWSW.innerPopup.close();$("overlay").setStyle("display","block");}var overlayContainer=new Element("div",{id:"overlayContainer",html:"<div class='close'><a href='javascript:;' onclick='HWSW.innerPopup.close()'><span>[ x ]</span></a></div>"+"<div id='popupContent'><div id='popupContentStart'></div></div>",styles:{width:popupW}});overlayContainer.inject(document.body);this.resizeToContent(popupW);window.addEvent('keydown',HWSW.innerPopup.watchEsc);},close:function(){if($('popupContentStart')){$("loginFormDiv").setStyle("display","none");$("loginFormDiv").inject($("loginFormDivBefore"),"after");}$("overlay").setStyle("display","none");if($("overlayContainer"))$("overlayContainer").dispose();if(Browser.Engine.trident)$$("select").setStyle("visibility","");},watchEsc:function(event){if(event.key=="esc"){HWSW.innerPopup.close();window.removeEvent('keydown',HWSW.innerPopup.watchEsc);}},setContent:function(where,what,focusfield){if(where=="local"){if($(what))$("popupContent").set("html",$(what).get("html"));HWSW.innerPopup.resizeToContent();}if(where=="remote"){var div=$("popupContent");div.set('load',{method:'get',onComplete:function(){HWSW.innerPopup.resizeToContent();if(focusfield!=""){$(focusfield).focus();}}});div.load(what);}},resizeToContent:function(popupW){var overlayContainer=$("overlayContainer");var overlayContainerSize=overlayContainer.getSize();var documentSize=document.getSize();var scrollPosition=document.getScroll();overlayContainer.setStyle("top",scrollPosition.y+(documentSize.y/2)-((overlayContainerSize.y)/2));if(popupW){overlayContainer.setStyles({left:(documentSize.x/2)-(popupW/2)});}}}
+//]]></script>
+      <script type="text/javascript" src="Az%20online%20biztons%C3%A1g%20leggyeng%C3%A9bb%20l%C3%A1ncszemei%20az%20IoT%20eszk%C3%B6z%C3%B6k%20-%20HWSW_files/script.js" async=""></script>
+      <script type="text/javascript" src="Az%20online%20biztons%C3%A1g%20leggyeng%C3%A9bb%20l%C3%A1ncszemei%20az%20IoT%20eszk%C3%B6z%C3%B6k%20-%20HWSW_files/md5.js" async=""></script>
+            
+      <link rel="icon" href="https://www.hwsw.hu/favicon.ico" type="image/x-icon">
+      <link rel="shortcut icon" href="https://www.hwsw.hu/favicon.ico" type="image/x-icon">
+      <link rel="default-slice" type="application/x-hatom" href="#hwswnews">
+	  
+	  <meta property="fb:page_id" content="140135776005721">
+      <script type="text/javascript">function facebookshare(url,id){window.open(url,"_blank","toolbar=no,scrollbars=yes,resizable=yes,top=500,left=500,width=460,height=400");ga('send','event','Cikk','Facebook',id);}</script>  
+      <style type="text/css">a#btn_facebook{background:#f8f8f8 url(/images/facebook-icon.png.pagespeed.ce.5u3VKZGPGQ.png) 6px center no-repeat;padding:6px 5px 5px 25px;border:1px solid #ccc;border-radius:4px;cursor:pointer;font-size:12px}a#btn_facebook:hover{border-color:#3c5a9a;text-decoration:none}</style>
+      
+
+<script type="text/javascript" async="" src="Az%20online%20biztons%C3%A1g%20leggyeng%C3%A9bb%20l%C3%A1ncszemei%20az%20IoT%20eszk%C3%B6z%C3%B6k%20-%20HWSW_files/embed.js"></script><link rel="prefetch" as="style" href="Az%20online%20biztons%C3%A1g%20leggyeng%C3%A9bb%20l%C3%A1ncszemei%20az%20IoT%20eszk%C3%B6z%C3%B6k%20-%20HWSW_files/a_data/lounge.css"><link rel="prefetch" as="script" href="Az%20online%20biztons%C3%A1g%20leggyeng%C3%A9bb%20l%C3%A1ncszemei%20az%20IoT%20eszk%C3%B6z%C3%B6k%20-%20HWSW_files/a_data/common.js"><link rel="prefetch" as="script" href="Az%20online%20biztons%C3%A1g%20leggyeng%C3%A9bb%20l%C3%A1ncszemei%20az%20IoT%20eszk%C3%B6z%C3%B6k%20-%20HWSW_files/a_data/lounge_002.js"><link rel="prefetch" as="script" href="Az%20online%20biztons%C3%A1g%20leggyeng%C3%A9bb%20l%C3%A1ncszemei%20az%20IoT%20eszk%C3%B6z%C3%B6k%20-%20HWSW_files/a_data/config.js"></head>
+<body>
+        
+  <div id="container">
+     
+      <div id="firstline" class="wrapper">
+        
+          <div id="mellekleteink">
+              <span class="szurke">Mellékleteink:</span>
+              <a href="https://hup.hu/" target="_blank">HUP</a> <span class="separator">|</span>
+              <a href="https://www.gamekapocs.hu/" target="_blank">Gamekapocs</a>
+          </div>
+	  <div id="userlinks" class="balra">Új felhasználó vagy? <a href="https://www.hwsw.hu/regisztracio.php">Regisztrálj itt</a> <span class="separator">|</span> <a href="javascript:HWSW.User.showLoginForm()">Bejelentkezés</a></div>
+      </div>
+      
+      <div id="header" class="wrapper">
+
+          <div id="logo"><a href="https://www.hwsw.hu/"><img src="Az%20online%20biztons%C3%A1g%20leggyeng%C3%A9bb%20l%C3%A1ncszemei%20az%20IoT%20eszk%C3%B6z%C3%B6k%20-%20HWSW_files/logo_white_felig.gif" alt="HWSW" title="HWSW"></a></div>
+          <div id="menu">
+              <ul>
+              
+                <li><a class="menu-rovat1 selected" href="https://www.hwsw.hu/rovat/vallalati-it" title="Hardverek, szoftverek és megoldások az üzlet szolgálatában"><span>vállalati it</span></a></li>
+              
+                <li><a class="menu-rovat2" href="https://www.hwsw.hu/rovat/digitalis-otthon" title="Lakossági informatika, szórakoztatóelektronika"><span>digitális otthon</span></a></li>
+              
+                <li><a class="menu-rovat3" href="https://www.hwsw.hu/rovat/high-tech" title="Csúcstechnológiák, jövõbe mutató fejlesztések"><span>high-tech</span></a></li>
+              
+                <li><a class="menu-rovat4" href="https://www.hwsw.hu/rovat/ecotech" title="Az IT-gazdaság ismerete tájékozottságot ad"><span>eco@tech</span></a></li>
+              
+                <li><a class="menu-rovat5" href="https://www.hwsw.hu/rovat/web" title="Trendek a neten"><span>web</span></a></li>
+              
+                <li class="last"><a class="menu-rovat6" href="https://www.hwsw.hu/rovat/media-telekom" title="A távközlési és a digitális médiaipar hírei"><span>média &amp; telekom</span></a></li>
+                
+              </ul>
+          </div>
+        
+      </div>
+      
+      <div id="kereso">
+
+          <form method="get" action="#" id="searchForm">            
+              <input name="q" id="headersearchfield" class="q" onkeypress="HWSW.searchevent(event, 'hwsw')" type="text">
+              <a href="javascript:HWSW.doSearch()">Keres</a>            
+          </form>
+
+      </div>
+
+      <div id="navibar" class="wrapper">
+        
+          <div class="bal">
+              <a href="https://www.hwsw.hu/bemutato.php">TESZTEK</a> <span class="separator">|</span>
+              <a href="https://forum.hwsw.hu/" onmouseover="navbar_promo_on('forum')" onmouseout="navbar_promo_off()">Fórum</a> <span class="separator">|</span> 
+              <a href="https://www.hwsw.hu/archivum/">Archívum</a> 
+              
+              
+              <a href="https://www.hwsw.hu/hirlevel.php" onmouseover="navbar_promo_on('hirlevel')" onmouseout="navbar_promo_off()" style="margin-left:120px;">Hírlevél</a> <span class="separator">|</span>
+      
+              <div class="rss" onclick="document.location.href='//www.hwsw.hu/xml/latest_news_rss.xml'"><a href="https://www.hwsw.hu/xml/latest_news_rss.xml">RSS</a></div> 
+			   
+              <a href="http://www.twitter.com/hwsw_" class="twitter" title="Kövess minket Twitteren!" target="_blank"><span>Twitter</span></a>
+              
+
+              
+          </div>
+          
+          <div class="jobb">
+              <a href="http://karrier.hwsw.hu/" onmouseover="navbar_promo_on('karrier')" onmouseout="navbar_promo_off()">Karrier</a> <span class="separator">|</span>
+              <a href="http://rendezveny.hwsw.hu/">Konferencia</a>
+              
+              <a href="https://www.notebook.hu/" target="_blank" style="margin-left:120px;">NOTEBOOK</a>
+
+                            
+          </div>
+                  
+      </div> 
+      
+      
+       
+	
+
+
+
+
+
+
+
+     
+      <div id="mainwrapper" class="wrapper">
+          <div id="content">            
+
+		  
+	
+
+                 <div id="cikkfejlec">
+                 	                    
+			  <h1>Az online biztonság leggyengébb láncszemei az IoT eszközök</h1>
+	                  <div class="iro">
+                      <a href="https://www.hwsw.hu/impresszum.php">Hlács Ferenc</a>,
+                      2016. október 05. 11:44
+                                            <div class="szoljhozza"><a href="#kommentek">Szólj hozzá!</a></div>
+                                            </div>
+
+					
+					
+					                    <h2 class="lead">Biztonsági kamerákból, 
+videófelvevõkbõl és társaikból épülnek az új gigabotnetek. A pár éves, 
+internetkapcsolattal rendelkezõ hasonló eszközök szinte a bekapcsolás 
+pillanatában malware-ostrom alá kerülnek.</h2>
+                                    </div>
+                
+                <div id="tartalom">                  
+			   
+				  <p>Nagyon komoly veszélyt jelentenek a védtelen IoT eszközök, 
+ráadásul nem csak tulajdonosaikra. Az olyan internetkapcsolattal 
+rendelkezõ eszközök, mint a biztonsági kamerák vagy akár a digitális 
+videófelvevõk sok esetben nullához közelítõ szoftveres védelemmel 
+rendelkeznek, azokból támadók viszonylag kis erõfeszítéssel jókora 
+botneteket építhetnek ki, amelyekkel aztán erõteljes DDoS csapásokat 
+mérhetnek a kiszemelt célpontokra.</p>
+<p>Hogy egy hasonló védtelen eszköz milyen kártevõ-offenzívának van kitéve, <a href="https://www.hwsw.hu/iparagipletykak/arstechnica.com/security/2016/10/making-a-dvr-join-a-ddos-botnet-is-a-piece-of-cake-and-thats-just-sad/" target="_blank">azt az Ars Technica által idézett </a>Jonannes
+ B. Ullrich biztonsági szakértõ kísérlete is kitûnõen szemlélteti, aki 
+egy régebbi DVR-nek adott internetkapcsolatot - az eszköz a bekapcsolást
+ követõen percek alatt összeroskadt a támadások alatt. A DVR-t a 
+malware-ek szinte azonnal ostrom alá vették, ahhoz telnet kapcsolaton 
+próbáltak csatlakozni, és a különbözõ alapértelmezett jelszó 
+lehetõségeket olyan tempóban próbálgatták, hogy az összeomló eszközt a 
+szakértõnek többször újra kellett indítania. A támadástengerben a kutató
+ szerint óránként néhány próbálkozó kártevõ sikeresen tippelte meg a 
+DVR-hez tartozó jelszót, ilyenkor az eszközt azonnal megfertõzte, majd a
+ rosszindulatú szoftverhez tartozó vezérlõszerver el is kezdte küldeni 
+rá az utasításokat, arra ösztökélve a videófelvevõt, hogy kezdjen online
+ kutatni további hasonló, sebezhetõ készülékek után.</p>
+<p style="text-align: center;"><img src="Az%20online%20biztons%C3%A1g%20leggyeng%C3%A9bb%20l%C3%A1ncszemei%20az%20IoT%20eszk%C3%B6z%C3%B6k%20-%20HWSW_files/botnet.jpg" alt="" width="580" height="290"></p>
+<p><!--target-->A DVR-re a jelenleg ismert egyik legveszélyesebb, 
+hasonló eszközökre vadászó malware, a Mirai is eljutott. A kártevõ 
+elképesztõ méretû, akár több mint fél terabites támadások levezénylését 
+is lehetõvé teszi, ráadásul már a szoftver forráskódja is nyitott, így 
+lényegében bárki használatba veheti azt.</p>
+<p>Hasonló kaliberû online támadások egy-két évvel ezelõtt még csak 
+állami háttérrel voltak megvalósíthatók. A Mirai ráadásul nem viszi 
+túlzásba a jelszópróbálgatást a célba vett készülékeken, azokon mindig 
+ugyanazt a 63 lehetõséget próbálja végig. Miután az eszközök védelme 
+gyakran teljes mértékben hiányzik, az esetek túlnyomó részében ez elég 
+is ahhoz, hogy a kártevõ átvegye felettük az uralmat.</p>
+<p>Hasonló malware-ekkel felfegyverkezve több mint százezer eszközt 
+számláló botnetek mozgósíthatók, egy ilyen ütötte ki nemrég a 
+KrebsOnSecurity weboldalát is. A Mirai a legutóbbi értesülések szerint 
+egyébként nagyjából 233 ezer fertõzött IoT eszközre épít, ez rendkívül 
+tekintélyes szám, ugyanakkor csak a dobogó második helyére elég az IoT 
+botnetek mezõnyében, az elsõ hely ugyanis a nem kevesebb mint 963 ezer 
+zombikészüléket felvonultató Bashlighté - a Mirai megnyitása azonban 
+ezen rövid úton változtathat.</p>	     
+
+
+	<script type="text/javascript" src="Az%20online%20biztons%C3%A1g%20leggyeng%C3%A9bb%20l%C3%A1ncszemei%20az%20IoT%20eszk%C3%B6z%C3%B6k%20-%20HWSW_files/cikkactions.js" charset="iso-8859-2" async=""></script>
+<div id="cikkactions">
+<table id="actionstable" width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody><tr>
+<td style="padding-right: 10px;" align="right">     
+    <a href="javascript:;" id="btn_facebook" rel="nofollow" onclick="facebookshare('https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fhwsw.hu%2Fhirek%2F56250%2Fbiztonsag-botnet-iot-dvr-mirai-malware.html', '56250:biztonsag-botnet-iot-dvr-mirai-malware.html')">Facebook</a>          
+</td>
+<td style="white-space:nowrap;" width="180" valign="bottom" height="20" nowrap="nowrap" align="right"><p id="kommentajanlo">Mit gondolsz? <a href="#kommentek">Mondd el!</a></p></td>
+</tr>
+</tbody></table>
+<div id="bubi_adatvedelem">Adatvédelmi okokból az adott hír megosztása 
+elõtt mindig aktiválnod kell a gombot! Ezzel a megoldással harmadik fél 
+nem tudja nyomon követni a tevékenységedet a HWSW-n, ez pedig közös 
+érdekünk.</div>
+        
+<div id="div_facebook_inaktiv"></div>
+<div id="div_twitter_inaktiv"></div>
+<div id="div_google_inaktiv"></div>
+              
+                    <div class="wrapper" id="cikktoolbar">
+                        <div class="bal">
+                            <div class="icons">
+                                <div id="icon_print"><a href="https://www.hwsw.hu/hirek/56250/biztonsag-botnet-iot-dvr-mirai-malware.html?print=1" onclick="ga('send', 'event', 'Cikk', 'Nyomtatás', '56250:biztonsag-botnet-iot-dvr-mirai-malware.html')">Nyomtatás</a></div>			
+                                <div id="icon_rss"><a href="https://www.hwsw.hu/xml/latest_news_rss.xml" onclick="ga('send', 'event', 'Cikk', 'RSS', '56250:biztonsag-botnet-iot-dvr-mirai-malware.html')">RSS</a></div>			
+                                <div id="icon_hirlevel"><a href="https://www.hwsw.hu/hirlevel.php" onclick="ga('send', 'event', 'Cikk', 'Hírlevél', '56250:biztonsag-botnet-iot-dvr-mirai-malware.html')">Hírlevél feliratkozás</a></div>			
+                                <div id="icon_hiba"><a href="javascript:;" onclick="hibajelentes(56250);ga('send', 'event', 'Cikk', 'Hibajelentés', '56250:biztonsag-botnet-iot-dvr-mirai-malware.html')">Hibát találtál a cikkben?</a></div>			
+                            </div>
+                        </div>
+                        <div class="jobb">
+                         
+                            <h4>Kapcsolódó anyagok</h4>
+                            <ul> 
+	                			                    		<li><a href="https://www.hwsw.hu/hirek/56235/logmein-lastpass-jelszo-jelszokezeles-adatbiztonsag-adatlopas-kutatas.html" onclick="ga('send', 'event', 'Cikk', 'kapcsolódó anyagok link (szürke box)', '56250:biztonsag-botnet-iot-dvr-mirai-malware.html')">Nagyon felelõtlen a felhasználók jelszókezelése</a></li>
+	                			                    		<li><a href="https://www.hwsw.hu/hirek/56224/whatsapp-facebook-adatkezeles-adatbiztonsag-adatvedelem-nemetorszag-amerika-torveny.html" onclick="ga('send', 'event', 'Cikk', 'kapcsolódó anyagok link (szürke box)', '56250:biztonsag-botnet-iot-dvr-mirai-malware.html')">A németek nem kérnek a Facebook-adatmegosztásból</a></li>
+	                			                    		<li><a href="https://www.hwsw.hu/hirek/56204/yahoo-adatlopas-email-biztonsag-verizon.html" onclick="ga('send', 'event', 'Cikk', 'kapcsolódó anyagok link (szürke box)', '56250:biztonsag-botnet-iot-dvr-mirai-malware.html')">Legalább 500 millió Yahoo felhasználó adatait lopták el</a></li>
+	                			                    		<li><a href="https://www.hwsw.hu/hirek/56193/tesla-auto-biztonsag-sebezhetoseg.html" onclick="ga('send', 'event', 'Cikk', 'kapcsolódó anyagok link (szürke box)', '56250:biztonsag-botnet-iot-dvr-mirai-malware.html')">A fékpedált is a támadónak adta át egy Tesla-sebezhetõség</a></li>
+	                		                            
+                            </ul> 
+                             
+                        </div>
+                    </div>
+<script type="text/javascript" src="Az%20online%20biztons%C3%A1g%20leggyeng%C3%A9bb%20l%C3%A1ncszemei%20az%20IoT%20eszk%C3%B6z%C3%B6k%20-%20HWSW_files/feedback.js" async=""></script>                    
+</div>
+                </div>
+                
+                
+    <div id="cikk_footer">
+    </div>    <a name="kommentek"></a>
+    <script type="text/javascript">var disqus_shortname='hwsw';var disqus_identifier='56250';var disqus_title='Az online biztonság leggyengébb láncszemei az IoT eszközök';var disqus_url='https://www.hwsw.hu/hirek/56250/biztonsag-botnet-iot-dvr-mirai-malware.html';var disqus_config=function(){this.sso={name:"HWSW",button:"https://www.hwsw.hu/images/dqhwswlogin.jpg",url:"https://www.hwsw.hu/bejelentkezes.php",logout:"https://www.hwsw.hu/kijelentkezes.php",width:"1000",height:"600"};this.callbacks.onNewComment=[function(){dqComment(56250);}];}</script>
+
+    <div id="disqus_thread" style="margin-right:10px; margin-left:10px;"><iframe id="dsq-app6108" name="dsq-app6108" allowtransparency="true" scrolling="no" tabindex="0" title="Disqus" style="width: 1px !important; min-width: 100% !important; border: medium none !important; overflow: hidden !important; height: 2457px !important;" src="Az%20online%20biztons%C3%A1g%20leggyeng%C3%A9bb%20l%C3%A1ncszemei%20az%20IoT%20eszk%C3%B6z%C3%B6k%20-%20HWSW_files/a.html" horizontalscrolling="no" verticalscrolling="no" width="100%" frameborder="0"></iframe></div>
+
+    <script type="text/javascript">(function(){var dsq=document.createElement('script');dsq.type='text/javascript';dsq.async=true;dsq.src='//'+disqus_shortname+'.disqus.com/embed.js';(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(dsq);})();</script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    
+
+          </div>  
+          <div id="sidebar" style="background:none;">
+              
+
+<div style="background:white;padding-bottom:1px;">
+                <div class="tabs">                  
+                    <ul>
+                      <li class="first selected"><a href="#" rel="toplista;frisskomment">Friss komment</a></li>
+                      <li><a href="#" rel="toplista;sokkomment">Sok komment</a></li>
+                      <li class="kicsi"><a href="#" rel="toplista;nepszeru">Népszerû</a></li>
+                    </ul>  
+		    <div class="iepont"></div>                
+                </div>
+
+                
+                <div class="doboz" id="toplista" style="background:#ffffff;">                  
+                    <div id="toplista-frisskomment" style="display: block">
+                        <ul>
+                          <li><a href="https://www.hwsw.hu/hirek/58350/seagate-nyegyedeves-penzugyi-jelentes-hdd-merevlemez-forgalom-bevetel-profit.html#kommentek" onclick="ga('send', 'event', 'tabdoboz', 'frisskomment')">Stagnál a Seagate forgalma</a><span class="kommentdarab">19</span></li>
+                          <li><a href="https://www.hwsw.hu/hirek/58376/red-hat-coreos-felvasarlas-tectonic-kubernetes-konteneres.html#kommentek" onclick="ga('send', 'event', 'tabdoboz', 'frisskomment')">A Red Hat csapott le a CoreOS-re</a><span class="kommentdarab">1</span></li>
+                          <li><a href="https://www.hwsw.hu/hirek/58379/apple-ios-11-12-iphone-ipad-javitas-problema-bug-fix.html#kommentek" onclick="ga('send', 'event', 'tabdoboz', 'frisskomment')">Stabilitásra és biztonságra fókuszál majd az iOS 12</a><span class="kommentdarab">2</span></li>
+                          <li><a href="https://www.hwsw.hu/hirek/58377/amd-penzugyi-negyedev-jelentes-bevetel-forgalom-profit-nyereseg-epyc-ryzen.html#kommentek" onclick="ga('send', 'event', 'tabdoboz', 'frisskomment')">Stabilizálódott az AMD</a><span class="kommentdarab">9</span></li>
+                          <li><a href="https://www.hwsw.hu/hirek/58375/cisco-asa-biztonsag-sebezhetoseg-cvss.html#kommentek" onclick="ga('send', 'event', 'tabdoboz', 'frisskomment')">Masszív sebezhetõség a Cisco ASA-kban</a><span class="kommentdarab">1</span></li>
+     
+                        </ul>
+                    </div>
+                    <div id="toplista-nepszeru" style="display: none">
+                        <ul>
+                          <li><a href="https://www.hwsw.hu/hirek/58365/telenor-eladas-szolgaltato-ertekesites-akvizicio.html" onclick="ga('send', 'event', 'tabdoboz', 'nepszeru')">Hivatalos: bejelentkeztek a Telenorért</a><span class="kommentdarab">53</span></li>
+                          <li><a href="https://www.hwsw.hu/hirek/58362/intel-penzugyi-negyedev-jelentes-bevetel-forgalom-profit-processzor-spectre-meltdown.html" onclick="ga('send', 'event', 'tabdoboz', 'nepszeru')">Intel: már idén hozzuk a javított processzorokat</a><span class="kommentdarab">46</span></li>
+                          <li><a href="https://www.hwsw.hu/hirek/58360/gvh-telekom-telenor-halozatmegosztas-razzia-mobilpiac-frekvencia-vizsgalat.html" onclick="ga('send', 'event', 'tabdoboz', 'nepszeru')">Újabb offenzíva indulhat a mobilpiaci árak letörésére</a><span class="kommentdarab">93</span></li>
+                          <li><a href="https://www.hwsw.hu/hirek/58363/microsoft-windows-10-diagnostic-data-viewer-privacy-dashboard.html" onclick="ga('send', 'event', 'tabdoboz', 'nepszeru')">Külön alkalmazás mutatja majd be a Windows 10 által gyûjtött adatokat</a><span class="kommentdarab">50</span></li>
+                          <li><a href="https://www.hwsw.hu/hirek/58354/microsoft-windows-10-store-office-365-app-uwp.html" onclick="ga('send', 'event', 'tabdoboz', 'nepszeru')">Jön az Office a Microsoft Store-ba</a><span class="kommentdarab">23</span></li>
+                        </ul>
+                    </div>
+                    <div id="toplista-sokkomment" style="display: none">
+                        <ul>
+                          <li><a href="https://www.hwsw.hu/hirek/58360/gvh-telekom-telenor-halozatmegosztas-razzia-mobilpiac-frekvencia-vizsgalat.html#kommentek" onclick="ga('send', 'event', 'tabdoboz', 'sokkoment')">Újabb offenzíva indulhat a mobilpiaci árak letörésére</a><span class="kommentdarab">93</span></li>
+                          <li><a href="https://www.hwsw.hu/hirek/58365/telenor-eladas-szolgaltato-ertekesites-akvizicio.html#kommentek" onclick="ga('send', 'event', 'tabdoboz', 'sokkoment')">Hivatalos: bejelentkeztek a Telenorért</a><span class="kommentdarab">53</span></li>
+                          <li><a href="https://www.hwsw.hu/hirek/58363/microsoft-windows-10-diagnostic-data-viewer-privacy-dashboard.html#kommentek" onclick="ga('send', 'event', 'tabdoboz', 'sokkoment')">Külön alkalmazás mutatja majd be a Windows 10 által gyûjtött adatokat</a><span class="kommentdarab">50</span></li>
+                          <li><a href="https://www.hwsw.hu/hirek/58362/intel-penzugyi-negyedev-jelentes-bevetel-forgalom-profit-processzor-spectre-meltdown.html#kommentek" onclick="ga('send', 'event', 'tabdoboz', 'sokkoment')">Intel: már idén hozzuk a javított processzorokat</a><span class="kommentdarab">46</span></li>
+                          <li><a href="https://www.hwsw.hu/hirek/58347/europai-bizottsag-qualcomm-intel-apple-modem-lte.html#kommentek" onclick="ga('send', 'event', 'tabdoboz', 'sokkoment')">Milliárd eurós büntetés a Qualcommnak</a><span class="kommentdarab">43</span></li>
+     
+                        </ul>
+                    </div>
+
+                </div>
+</div>
+
+
+
+
+<div style="background:white;">
+                <div style="padding-bottom:10px;"><iframe src="Az%20online%20biztons%C3%A1g%20leggyeng%C3%A9bb%20l%C3%A1ncszemei%20az%20IoT%20eszk%C3%B6z%C3%B6k%20-%20HWSW_files/page.html" style="border:none;overflow:hidden" scrolling="no" allowtransparency="true" width="310" height="130" frameborder="0"></iframe></div>
+</div>
+
+
+                
+                
+                
+
+
+
+                
+
+                <div><img src="Az%20online%20biztons%C3%A1g%20leggyeng%C3%A9bb%20l%C3%A1ncszemei%20az%20IoT%20eszk%C3%B6z%C3%B6k%20-%20HWSW_files/tabdoboz_buzz.png" alt="" title="Blogszemle" width="310" height="50" border="0"></div>
+                <div class="doboz szurkebg nopadtop">				                  
+                  <ul>
+                                      <li><a href="http://antivirus.blog.hu/2018/01/31/jelszohasznalat_igy_lovunk_mi" target="_blank" title="Forrás: Antivrus blog" onclick="ga('send', 'event', 'Click', 'buzz doboz', 'Jelszóhasználat - így lövünk mi')">Jelszóhasználat - így lövünk mi</a></li>
+                                      <li><a href="http://blog.zomputer.hu/content/egyiranyu-free-busy-hibrid-office-365-konfiguracioban" target="_blank" title="Forrás: Office 365 blog" onclick="ga('send', 'event', 'Click', 'buzz doboz', 'Egyirányú Free-Busy hibrid Office 365 konfigurációban')">Egyirányú Free-Busy hibrid Office 365 konfigurációban</a></li>
+                                      <li><a href="http://netacademia.blog.hu/2018/01/30/netacademia_fonixperiodusban" target="_blank" title="Forrás: NetAcademia" onclick="ga('send', 'event', 'Click', 'buzz doboz', 'NetAcademia fõnixperiódusban')">NetAcademia fõnixperiódusban</a></li>
+                                      <li><a href="http://netacademia.blog.hu/2018/01/29/c_programozo_vagy_es_erdekel_a_blockchain_bitcoin" target="_blank" title="Forrás: NetAcademia" onclick="ga('send', 'event', 'Click', 'buzz doboz', 'C# programozó vagy és érdekel a Blockchain (Bitcoin)?')">C# programozó vagy és érdekel a Blockchain (Bitcoin)?</a></li>
+                                      <li><a href="http://blog.zomputer.hu/content/office-365-portal-nyelv-megvaltoztatasa-hibrid-koernyezetben" target="_blank" title="Forrás: Office 365 blog" onclick="ga('send', 'event', 'Click', 'buzz doboz', 'Office 365 portál nyelv megváltoztatása hibrid környezetben')">Office 365 portál nyelv megváltoztatása hibrid környezetben</a></li>
+                                      <li><a href="http://derrickesharry.blog.hu/2018/01/28/sikerprojekt_szuletik" target="_blank" title="Forrás: Derrick &amp; Harrry" onclick="ga('send', 'event', 'Click', 'buzz doboz', 'Sikerprojekt Születik')">Sikerprojekt Születik</a></li>
+                                      <li><a href="http://it-pro-hu.blogspot.com/2018/01/tm16xx-arduino-konyvtar.html" target="_blank" title="Forrás: SUF" onclick="ga('send', 'event', 'Click', 'buzz doboz', 'TM16XX Arduino Könyvtár')">TM16XX Arduino Könyvtár</a></li>
+                                    </ul>                 
+                </div>
+                
+<!-- iphonevsandroid doboz -->
+           
+
+
+
+
+
+
+         
+		<div style="position: relative">       
+                <div class="doboz_fejlec_kek">Kipróbáltuk</div>
+                <div class="doboz kekbg">                  
+                    <div id="kiprobaltuk">                      
+                        <div class="kep"><a href="https://www.hwsw.hu/hirek/58107/huawei-mate-10-pro-kiprobaltuk-okostelefon-teszt.html" onclick="ga('send', 'event', 'Kipróbáltuk doboz', 'tartalom', 'kép')"><img src="Az%20online%20biztons%C3%A1g%20leggyeng%C3%A9bb%20l%C3%A1ncszemei%20az%20IoT%20eszk%C3%B6z%C3%B6k%20-%20HWSW_files/58107-huawei-mate-10-pro-kiprobaltuk-okostelefon-teszt-k.jpg" id="kiprobaltuk_kep" alt="Kipróbáltuk: Huawei Mate 10 Pro" title="Kipróbáltuk: Huawei Mate 10 Pro" width="280" height="180"></a></div>
+                        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                          <tbody><tr>
+                            <td align="left"><a href="javascript:;" onclick="prev_kiprobaltuk('2017-11-24 09:30:00');ga('send', 'event', 'Kipróbáltuk doboz', 'tartalom', 'lapozás balra');"><img src="Az%20online%20biztons%C3%A1g%20leggyeng%C3%A9bb%20l%C3%A1ncszemei%20az%20IoT%20eszk%C3%B6z%C3%B6k%20-%20HWSW_files/lapozo_rovid_balra_over.gif" alt="" title=""></a></td>
+                            <td id="kiptextloader" style="padding: 0px 3px 0px 3px;" align="center"><a href="https://www.hwsw.hu/hirek/58107/huawei-mate-10-pro-kiprobaltuk-okostelefon-teszt.html" onclick="ga('send', 'event', 'Kipróbáltuk doboz', 'tartalom', 'cím')"><strong>Kipróbáltuk: Huawei Mate 10 Pro</strong></a></td>
+                            <td align="right"><a href="javascript:;" onclick="next_kiprobaltuk('2017-11-24 09:30:00');ga('send', 'event', 'Kipróbáltuk doboz', 'tartalom', 'lapozás jobbra');"><img src="Az%20online%20biztons%C3%A1g%20leggyeng%C3%A9bb%20l%C3%A1ncszemei%20az%20IoT%20eszk%C3%B6z%C3%B6k%20-%20HWSW_files/lapozo_rovid_jobbra_over.gif" alt="" title=""></a></td>
+                          </tr>
+                        </tbody></table>                     
+                    </div>  	
+		            <div class="megtobblink"><a href="https://www.hwsw.hu/bemutato.php" onclick="ga('send', 'event', 'Kipróbáltuk doboz', 'tartalom', 'még több link')">még több teszt &#187;</a></div>               
+                </div>
+                </div>
+                <div id="result_kiprobaltuk" style="display:none;"></div>
+
+		<div style="position: relative" id="karrierblokk">
+		<div><a href="http://karrier.hwsw.hu/"><img src="Az%20online%20biztons%C3%A1g%20leggyeng%C3%A9bb%20l%C3%A1ncszemei%20az%20IoT%20eszk%C3%B6z%C3%B6k%20-%20HWSW_files/tabdoboz_karrier.gif" alt="Karrier" title="Karrier"></a></div>
+                <div class="doboz kekborder nopadtop">
+                    <ul class="kekpotty">
+                       <li><a href="https://www.profession.hu/allas/ios-fejleszto-pearl-hunt-kft-budapest-1122337/optimum/p/31" target="_blank" title="iOS fejlesztõ &lt;span&gt;Pearl Hunt Kft&lt;/span&gt; - Pearl Hunt Kft" onclick="ga('send', 'event', 'Click', 'állás - link')">iOS fejlesztõ <span>Pearl Hunt Kft</span></a> <span>Pearl Hunt Kft</span></li>
+                       <li><a href="https://www.profession.hu/allas/szofvertesztelot-petend-kft-1125777/optimum/p/31" target="_blank" title="Szofvertesztelõt &lt;span&gt;Petend Kft.&lt;/span&gt; - Petend Kft." onclick="ga('send', 'event', 'Click', 'állás - link')">Szofvertesztelõt <span>Petend Kft.</span></a> <span>Petend Kft.</span></li>
+                       <li><a href="https://www.profession.hu/allas/c-developer-nng-kft-budapest-1118918/optimum/p/31" target="_blank" title="C++ Developer &lt;span&gt;NNG Kft.&lt;/span&gt; - NNG Kft." onclick="ga('send', 'event', 'Click', 'állás - link')">C++ Developer <span>NNG Kft.</span></a> <span>NNG Kft.</span></li>
+                       <li><a href="https://www.profession.hu/allas/software-tester-nng-kft-budapest-1118922/optimum/p/31" target="_blank" title="Software Tester &lt;span&gt;NNG Kft.&lt;/span&gt; - NNG Kft." onclick="ga('send', 'event', 'Click', 'állás - link')">Software Tester <span>NNG Kft.</span></a> <span>NNG Kft.</span></li>
+                       <li><a href="https://www.profession.hu/allas/szerviztechnikus-monicomp-zrt-1122768/optimum/p/31" target="_blank" title="Szerviztechnikus &lt;span&gt;Monicomp Zrt.&lt;/span&gt; - Monicomp Zrt." onclick="ga('send', 'event', 'Click', 'állás - link')">Szerviztechnikus <span>Monicomp Zrt.</span></a> <span>Monicomp Zrt.</span></li>
+                    
+                    </ul>  
+		    <div class="megtobblink_karrier"><a href="http://karrier.hwsw.hu/" onclick="ga('send', 'event', 'Click', 'állás - még több')">még több állás &#187;</a></div>                       
+                </div>
+		</div>
+
+
+
+
+                
+
+
+
+				<table width="100%" cellspacing="0" cellpadding="0" border="0">
+                <tbody><tr>
+                  <td align="center"><a target="_blank" href="http://www.szerver.hu/"><img alt="Intel szerverek építése" title="Intel szerverek építése" src="Az%20online%20biztons%C3%A1g%20leggyeng%C3%A9bb%20l%C3%A1ncszemei%20az%20IoT%20eszk%C3%B6z%C3%B6k%20-%20HWSW_files/szerver_hu_120x40.gif" width="120" height="40"></a></td>
+                  <td align="center"><a target="_blank" href="http://www.observer.hu/"><img alt="Observer - A médiafigyelõ" src="Az%20online%20biztons%C3%A1g%20leggyeng%C3%A9bb%20l%C3%A1ncszemei%20az%20IoT%20eszk%C3%B6z%C3%B6k%20-%20HWSW_files/observer2014.png" width="120" height="40"></a></td>
+                </tr>
+                <tr>
+                  <td style="padding-top: 10px" align="center"><a href="http://ivsz.hu/" target="_blank"><img alt="Az IVSZ tagja" src="Az%20online%20biztons%C3%A1g%20leggyeng%C3%A9bb%20l%C3%A1ncszemei%20az%20IoT%20eszk%C3%B6z%C3%B6k%20-%20HWSW_files/ivsz_v2.jpg" width="120" height="43" border="0"></a></td>
+                  <td style="padding-top: 13px;" valign="top" align="center"><a target="_blank" href="http://www.hirkereso.hu/"><img alt="Hírkeresõ - Percrõl-percre" src="Az%20online%20biztons%C3%A1g%20leggyeng%C3%A9bb%20l%C3%A1ncszemei%20az%20IoT%20eszk%C3%B6z%C3%B6k%20-%20HWSW_files/hirkereso.png" width="120" height="40"></a></td>
+                </tr>
+                <tr>
+                  <td style="padding-top: 13px" align="center"><a target="_blank" href="https://https.hu/"><img title="bitdefender" alt="bitdefender" src="Az%20online%20biztons%C3%A1g%20leggyeng%C3%A9bb%20l%C3%A1ncszemei%20az%20IoT%20eszk%C3%B6z%C3%B6k%20-%20HWSW_files/https_hu_120x40.jpg" width="120" height="40"></a></td>
+                  <td align="center">&nbsp;</td>
+                </tr>
+    
+                </tbody></table>
+
+          </div>
+                      </div>
+      <div id="loginFormDivBefore" style="display:none;"></div>
+      <div id="loginFormDiv" style="display:none;">
+          <div class="likeh2">Bejelentkezés</div>      
+          <br>
+          <p style="font-size: 14px" align="center">A Fórumos azonosítóddal is beléphetsz!<br>A bejelentkezéssel elfogadod az <a href="https://www.hwsw.hu/adatvedelem.php" target="_blank">új adatvédelmi szabályzat</a>unkat!</p>      
+          <form action="/" name="loginform" id="loginform" method="post">
+          <table width="100%" cellspacing="0" cellpadding="6" border="0">
+          <tbody><tr>
+            <td class="big" width="35%" align="right">Nick vagy e-mail:</td>
+            <td><input name="username" id="loginusername" onkeypress="loginformevent(event)" class="input" type="text"></td>
+          </tr>
+          <tr>
+            <td class="big" align="right">Jelszó:</td>
+            <td><input name="pass" id="loginpass" onkeypress="loginformevent(event)" class="input" type="password"></td>
+          </tr>
+          <tr>
+            <td colspan="2" align="center"><p align="center"><input id="loginbutton" value="Mehet" onclick="checklogin()" style="vertical-align:middle" type="button"> vagy <a href="javascript:HWSW.innerPopup.close()" class="duci">Mégse</a></p></td>
+          </tr>
+          </tbody></table>
+          <input name="dologin" value="1" type="hidden">
+          <input name="url" id="loginurl" value="" type="hidden">
+          </form>    
+          <div id="loginhiba" class="hiba"></div>
+          <p align="center"><a href="javascript:HWSW.User.showNewPswForm();">Elfelejtett jelszó</a> <strong>&#187;</strong></p>
+      </div> 
+      
+
+
+      <div id="footer">        
+          <a href="https://m.hwsw.hu/" rel="nofollow" style="padding-right: 28px !important">Mobil verzió</a>
+                    <a href="https://www.hwsw.hu/impresszum.php">Impresszum</a> <span class="separator">|</span>
+          <a href="https://www.hwsw.hu//mediaajanlat/HWSW_mediaajanlat.pdf">Médiaajánlat</a> <span class="separator">|</span>
+          <a href="https://www.hwsw.hu/etikai_kodex.php">Etikai kódex</a> <span class="separator">|</span>
+          <a href="https://www.hwsw.hu/adatvedelem.php">Adatvédelem</a> <span class="separator">|</span>
+          <a href="https://www.hwsw.hu/aboutus.php">About Us</a>
+	  <a href="http://www.bigfish.hu/" target="_blank" class="bigfish"><img src="Az%20online%20biztons%C3%A1g%20leggyeng%C3%A9bb%20l%C3%A1ncszemei%20az%20IoT%20eszk%C3%B6z%C3%B6k%20-%20HWSW_files/bigfish.gif" alt="BIG FISH" title="BIG FISH"></a>        
+      </div>
+
+      <div class="hslice" id="hwswnews">
+         <h2 class="entry-title" style="display: none">HWSW Friss hírek</h2>
+         <a rel="entry-content" href="https://www.hwsw.hu/xml/webslice.html" style="display: none;"></a>
+      </div>
+     <div id="tmp_result" style="display:none;"></div>
+
+
+
+<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new
+ 
+Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create','UA-116091-5','auto');ga('send','pageview');</script>
+
+
+<script type="text/javascript">var 
+_paq=_paq||[];_paq.push(['trackPageView']);_paq.push(['enableLinkTracking']);(function(){var
+ 
+u='//hwsw.hu/fsyn/';_paq.push(['setTrackerUrl',u+'fsyn.php']);_paq.push(['setSiteId',1]);var
+ 
+d=document,g=d.createElement('script'),s=d.getElementsByTagName('script')[0];g.type='text/javascript';g.async=true;g.defer=true;g.src=u+'fsyn.js?20170912';s.parentNode.insertBefore(g,s);})();</script>
+<noscript><p><img src="//hwsw.hu/fsyn/fsyn.php" style="border:0;" alt=""/></p></noscript>
+
+
+<!-- Facebook Pixel Code -->
+<script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','884298924952901');fbq('track','PageView');</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=884298924952901&ev=PageView&noscript=1"/></noscript>
+<!-- DO NOT MODIFY -->
+<!-- End Facebook Pixel Code -->
+
+
+
+  </div>
+<div id="sutialert" style="display:none;">
+    <div class="text">Az oldalunkon cookie-kat használunk a jobb felhasználói élmény érdekében. <a href="https://www.hwsw.hu/adatvedelem.php">Részletek.</a> <input id="btn_cookie_accept" onclick="acceptcookies()" value="Rendben" type="button"></div>
+</div>
+<script type="text/javascript">//<![CDATA[
+function 
+acceptcookies(){Cookie.write('acceptcookie','1',{duration:1825});$('cookiealert').style.display="none";}window.addEvent('domready',function(){if(Cookie.read('acceptcookie')!=1){$('cookiealert').style.display="block";}});
+//]]></script>
+<input id="cfg_siteurl" value="//www.hwsw.hu/" type="hidden">
+
+<script type="text/javascript">function detectIE(){var 
+ua=window.navigator.userAgent;var msie=ua.indexOf('MSIE 
+');if(msie>0){return 
+parseInt(ua.substring(msie+5,ua.indexOf('.',msie)),10);}var 
+trident=ua.indexOf('Trident/');if(trident>0){var 
+rv=ua.indexOf('rv:');return 
+parseInt(ua.substring(rv+3,ua.indexOf('.',rv)),10);}var 
+edge=ua.indexOf('Edge/');if(edge>0){return 
+parseInt(ua.substring(edge+5,ua.indexOf('.',edge)),10);}return 
+false;}function autoadiframeResize(){var 
+newheight;if(document.getElementById)newheight=document.getElementById('adiframe').contentWindow.document.body.scrollHeight;if(newheight==0){setTimeout("autoadiframeResize()",500);}else{document.getElementById('adiframe').height=(newheight)+"px";}}if(detectIE()==false){document.write(unescape("%3Cscript
+ src='//ad.adverticum.net/g3.js'  charset='utf-8' 
+type='text/javascript'%3E%3C/script%3E"));}else{if($('adtext'))$('adtext').innerHTML='<iframe
+ src="/advcikkad.php?r=5" frameborder="0" height="300" scrolling="no" 
+width="612" id="adiframe" onLoad="autoadiframeResize()"></iframe>';}</script><script src="Az%20online%20biztons%C3%A1g%20leggyeng%C3%A9bb%20l%C3%A1ncszemei%20az%20IoT%20eszk%C3%B6z%C3%B6k%20-%20HWSW_files/g3.js" charset="utf-8" type="text/javascript"></script>
+
+
+
+
+
+<iframe style="display: none;"></iframe></body></html>
